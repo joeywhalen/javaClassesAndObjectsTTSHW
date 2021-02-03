@@ -11,6 +11,13 @@ public class Pet {
 		
 		public Pet() {}
 		
+		public Pet(String petName, int age, String location, String type) {
+			this.petName = petName;
+			this.age = age;
+			this.location = location;
+			this.type = type;
+		}
+		
 		
 	}
 
