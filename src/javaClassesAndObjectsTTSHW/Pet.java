@@ -8,18 +8,16 @@ public class Pet {
 		private String location;
 		private String type;
 		
-		public Pet(String name, int age, String type){
-			this.name = name;
-			this.age = age;
-			this.type = type;
-		}
+		// 2 constructors
+		public Pet() {}
 		
-		public Pet(String name, int age, String location) {
+		public Pet(String name, int age, String location, String type) {
 			this.name = name;
 			this.age = age;
 			this.location = location;
 		}
 		
+		// 3 Getters and 3 Setters
 		public String getName()
 		{
 			return name;
